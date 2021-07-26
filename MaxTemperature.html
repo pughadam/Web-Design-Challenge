@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Summary of Weather Data Max Temperature</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid navbar-customer">
+            <div class="row">
+                <a class="navbar-brand" href="#">Latitude</a>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav navbar-right nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
+                                <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+                                <li><a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a></li>
+                                <li><a class="dropdown-item" href="WindSpeed.html">Wind Speed</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="comparison.html">
+                                Comparison
+                            </a>
+                        </li>
+                        <li>
+                            <a href="data.html">
+                                Data
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="text-left">Max Temperature</h2>
+                <hr>
+                <a class="_blank" href="Resources/assets/images/Fig1.png"></a>
+                <img src="Resources/assets/images/Fig1.png" alt="Latitude vs Temperature" class="rounded main-image">
+                <p>When looking at the data and graphs, there appears to be a very strong correlation between Latitude and Max Temperature.</p>
+                <p>The closer you get to the equator it appears the tighter the range of temperatures.  When looking at the graphs, it appears 
+                    that outliers Max Temperatures start to show themselves around 20 degrees from Zero.  The data shows that the further away 
+                    you are from the equator the cooler the Max Temperature will be.  Closer studying of this data is needed with global 
+                    warming coming so quickly.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <div class="side-section">
+                    <h2 class="text-left">Visualizations</h2>
+                    <hr>
+                    <div class="four-blocker row">
+                        <a href="MaxTemperature.html">
+                            <img src="Resources/assets/images/Fig1.png" class="side-image"
+                                alt="Latitude vs Temperature">
+                        </a>
+                        <a href="Humidity.html">
+                            <img src="Resources/assets/images/Fig2.png" class="side-image"
+                                alt="Latitude vs Humidity">
+                        </a>
+                        <a href="Cloudiness.html">
+                            <img src="Resources/assets/images/Fig3.png" class="side-image"
+                                alt="Latitude vs Cloudiness">
+                        </a>
+                        <a href="WindSpeed.html">
+                            <img src="Resources/assets/images/Fig4.png" class="side-image"
+                                alt="Latitude vs Wind Speed">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
