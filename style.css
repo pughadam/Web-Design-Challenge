@@ -33,4 +33,11 @@ body {
     color:rgb(52, 133, 136);
 }
 
+.box {
+    margin-top: 25px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+    color: rgb(52, 133, 136);
+}
+
 
